@@ -1,5 +1,6 @@
 <script>
   import About from "./lib/components/About.svelte";
+  import Contact from "./lib/components/Contact.svelte";
   import Features from "./lib/components/Features.svelte";
   import Hero from "./lib/components/Hero.svelte";
   import Navbar from "./lib/components/Navbar.svelte";
@@ -12,4 +13,5 @@
   <About />
   <Features />
   <Story />
+  <Contact />
 </main>
