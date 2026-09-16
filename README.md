@@ -1,43 +1,149 @@
-# Svelte + Vite
+# [🎮 Gaming Website — GSAP × Svelte : Live Demo](https://animated-gaming-site.vercel.app/)
 
-This template should help get you started developing with Svelte in Vite.
+A modern gaming website built as a learning project to explore **GSAP animations, interactive UI, and Svelte**.
 
-## Recommended IDE Setup
+The original tutorial for this project was built with **React**. As part of my learning process, I challenged myself to recreate and convert the project into **Svelte**, adapting the original implementation and translating its concepts into Svelte's component-based approach.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+This project showcases my ability to work with **Svelte, GSAP, animations, and modern frontend development** while going beyond simply following the original tutorial.
 
-## Need an official Svelte framework?
+## ✨ Highlights
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+- 🎨 Modern gaming-focused UI
+- ⚡ Built with **Svelte**
+- 🎬 Smooth animations powered by **GSAP**
+- 🖱️ Interactive UI elements and transitions
+- 📱 Responsive design
+- 🔄 Converted the original **React tutorial implementation to Svelte**
+- 🧩 Component-based architecture
+- 💡 Focused on understanding and recreating the underlying concepts rather than directly copying the implementation
 
-## Technical considerations
+## 🛠️ Tech Stack
 
-**Why use this over SvelteKit?**
+- **Svelte** — Frontend framework
+- **GSAP** — Animations and motion
+- **JavaScript** — Application logic
+- **HTML5** — Structure
+- **CSS** — Styling and responsive design
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+## 🎯 What I Learned
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+The main goal of this project was to improve my understanding of **animation-driven frontend development** and strengthen my Svelte skills.
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+During the project, I worked on:
 
-**Why include `.vscode/extensions.json`?**
+- Creating reusable Svelte components
+- Managing state and interactions in Svelte
+- Implementing GSAP animations
+- Creating smooth entrance and transition animations
+- Coordinating multiple animations and timelines
+- Recreating React-based concepts using Svelte
+- Understanding the differences between React and Svelte approaches
+- Building a responsive and interactive user experience
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+## 🔄 React → Svelte Conversion
 
-**Why enable `checkJs` in the JS template?**
+One of the main challenges of this project was taking a tutorial originally created with **React** and implementing the same overall experience using **Svelte**.
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+Instead of following the React implementation directly, I had to rethink parts of the project using Svelte's own patterns.
 
-**Why is HMR not preserving my local component state?**
+This included adapting:
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
+- React components → Svelte components
+- React state management → Svelte reactivity
+- React lifecycle concepts → Svelte lifecycle functions
+- Event handling → Svelte event patterns
+- UI composition → Svelte component structure
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+This conversion was an important part of the project because it helped me understand not only how to use Svelte, but also how different frontend frameworks approach similar problems.
 
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+## 🎬 GSAP Animations
+
+Animation is one of the main focuses of this project.
+
+I used **GSAP (GreenSock Animation Platform)** to create interactive motion and visual effects throughout the website.
+
+The project explores techniques such as:
+
+- GSAP timelines
+- Element entrance animations
+- Hover interactions
+- Page transitions
+- Staggered animations
+- Transform and opacity animations
+- Coordinating multiple elements
+- Creating smooth, responsive motion
+
+The goal was to make the interface feel more dynamic while keeping the animations intentional and performant.
+
+## 📂 Project Structure
+
+```text
+src/
+├──lib
+│  └─ components/
+├── App.svelte
+└── main.js
 ```
+
+> The exact structure may vary depending on the current implementation.
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Navigate into the project:
+
+```bash
+cd <project-folder>
+```
+
+Install dependencies:
+
+```bash
+vite install
+```
+
+Start the development server:
+
+```bash
+vite run dev
+```
+
+The project will then be available at the local development URL provided by Svelte/Vite.
+
+## 📦 Build for Production
+
+To create a production build:
+
+```bash
+vite run build
+```
+
+To preview the production build:
+
+```bash
+vite run preview
+```
+
+
+## 🙌 Credits
+
+This project was created as a **learning and practice project** based on a React tutorial.
+
+The original tutorial provided the foundation and design/animation concepts. I independently recreated and adapted the project using **Svelte**, while exploring my own implementation of the components, reactivity, and GSAP animations.
+
+## 💭 Why I Built This
+
+I built this project to challenge myself beyond simply completing a tutorial.
+
+The main challenge was taking a project built around **React** and translating the experience into **Svelte**, while using **GSAP** to understand and implement the animation system.
+
+It helped me practice both **framework conversion** and **animation-focused frontend development**.
+
+---
+
+### Built with ❤️ using Svelte + GSAP
